@@ -15,7 +15,7 @@ public class Docente implements Persona {
     
     @Override
     public void mostrarInformacion() {
-        System.out.println("Docente: ");
+        System.out.println("\t Docente ");
         System.out.println("Nombre: " + nombre );
         System.out.println("Cedula: " + cedula);
         System.out.println("Edad: "+ edad);
@@ -31,6 +31,7 @@ public class Docente implements Persona {
         this.nombre = nombre;
     }
 
+    @Override
     public int getCedula() {
         return cedula;
     }

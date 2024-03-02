@@ -18,7 +18,7 @@ public class Estudiante implements Persona{
     
     @Override
     public void mostrarInformacion() {
-        System.out.println("Estudiante: ");
+        System.out.println("\t Estudiante");
         System.out.println("Nombre: " + nombre);
         System.out.println("Cedula: " + cedula);
         System.out.println("Edad: " + edad);
@@ -33,6 +33,7 @@ public class Estudiante implements Persona{
         this.nombre = nombre;
     }
 
+    @Override
     public int getCedula() {
         return cedula;
     }
